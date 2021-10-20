@@ -51,8 +51,9 @@ Resources:
           #!/bin/bash
           apt-get update -y
           apt-get install apache2 -y
-          echo "Hello, my name is S.A.S.A" >> /var/www/html/index.html
           systemctl start apache2.service
+          echo "Hello, my name is S.A.S.A" >> /var/www/html/index.html
+          
       ImageId: ami-09e67e426f25ce0d7
       SecurityGroups :
         - Ref: WebServerSecGroup
@@ -125,6 +126,6 @@ Resources:
 Outputs:
   LoadBalancerURL:
     Description: LoadBalancer URL
-    Value: !Join ["", ["http://", !GetAtt WepAppLB.DNSName]]
+    Value: !Join ["", ["http://", !GetAtt WepAppLB.DNSName, "index.html"]]
     Export:
       Name: !Sub ${EnvironmentName}-LB-URL
