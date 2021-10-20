@@ -37,14 +37,14 @@ In this project, I deployed a static website using the AWS CloudFormation techno
 1. [The LoadBalancer URL](http://myser-wepap-19bce6unkv41k-1295941085.us-east-1.elb.amazonaws.com/index.html)
 
 2. Screenshot of the deployed static website with IaC
-![DeployedWebSite](TheStaticWebsite.png)
+![DeployedWebSite](screenshots/TheStaticWebsite.png)
 
 3. Screenshots of AWS CloudFormation dashboard
  * Network infrastructure stack
-![AWSCloudFormationOne](AWSCloudFormationOne.png)
+![AWSCloudFormationOne](screenshots/AWSCloudFormationOne.png)
 
 * Server infrastructure stack
-![AWSCloudFormationTwo](AWSCloudFormationTwo.png)
+![AWSCloudFormationTwo](screenshots/AWSCloudFormationTwo.png)
 
 
 
