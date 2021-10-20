@@ -53,7 +53,7 @@ Resources:
           apt-get install apache2 -y
           echo "Hello, my name is S.A.S.A!" >> /var/www/html/index.html
           systemctl start apache2.service
-      ImageId: ami-02e136e904f3da870
+      ImageId: ami-09e67e426f25ce0d7
       SecurityGroups :
         - Ref: WebServerSecGroup
       InstanceType: t2.nano

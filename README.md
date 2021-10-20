@@ -13,6 +13,10 @@ In this project, I deployed a static website using the AWS CloudFormation techno
  ```
  aws cloudformation update-stack --stack-name MyNetworkStack --template-body file://Network-IaC.yaml  --parameters file://Network-Parameters.json
  ```
+ * Delete the CloudFormation stack
+ ```
+ aws cloudformation delete-stack --stack-name MyNetworkStack
+ ```
 
 2. Deploy server infrastructure
  * Create the CloudFormation stack
@@ -23,3 +27,11 @@ In this project, I deployed a static website using the AWS CloudFormation techno
  ```
  aws cloudformation update-stack --stack-name MyServersStack --template-body file://Servers-IaC.yaml  --parameters file://Servers-Parameters.json
  ```
+* Delete the CloudFormation stack
+ ```
+ aws cloudformation delete-stack --stack-name MyServersStack
+ ```
+
+
+Author: 
+S.A.S.A Razavi Omrani
