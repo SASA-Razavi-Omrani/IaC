@@ -1,0 +1,26 @@
+[
+    {
+        "ParameterKey": "EnvironmentName",
+        "ParameterValue": "IaC"
+    },
+    {
+        "ParameterKey": "VpcCIDR",
+        "ParameterValue": "10.0.0.0/16"
+    },
+    {
+        "ParameterKey": "FirstPublicSubnet",
+        "ParameterValue": "10.0.0.0/24"
+    },
+    {
+        "ParameterKey": "SecondPublicSubnet",
+        "ParameterValue": "10.0.1.0/24"
+    },
+    {
+        "ParameterKey": "FirstPrivateSubnet",
+        "ParameterValue": "10.0.2.0/24"
+    },
+    {
+        "ParameterKey": "SecondPrivateSubnet",
+        "ParameterValue": "10.0.3.0/24"
+    }
+]
