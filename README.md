@@ -34,7 +34,7 @@ In this project, I deployed a static website using the AWS CloudFormation techno
 
 ### Evidence
 
-1. [The LoadBalancer URL](http://myser-wepap-19bce6unkv41k-1295941085.us-east-1.elb.amazonaws.com/index.html) **The CloudFront stack has been deleted due to cost saving**
+1. [The LoadBalancer URL](http://myser-wepap-19bce6unkv41k-1295941085.us-east-1.elb.amazonaws.com/index.html) **The AWS Cloud Frormation stack has been deleted due to cost saving**
 
 2. Screenshot of the deployed static website with IaC
 ![DeployedWebSite](screenshots/TheStaticWebsite.png)
